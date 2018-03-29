@@ -1,0 +1,29 @@
+{
+  "name": "ci-dummy",
+  "version": "0.0.1",
+  "description": "example node repo with some dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "start": "micro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anoff/node-ci-dummy.git"
+  },
+  "author": "Andreas Offenhaeuser <https://anoff.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anoff/node-ci-dummy/issues"
+  },
+  "homepage": "https://github.com/anoff/node-ci-dummy#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "micro": "^9.1.4",
+    "request-promise": "^4.2.2"
+  }
+}
