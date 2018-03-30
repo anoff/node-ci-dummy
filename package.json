@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "ava",
-    "start": "micro",
+    "start": "micro -p ${PORT:-3000}",
     "dev": "micro-dev",
     "lint": "standard"
   },
@@ -26,7 +26,6 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "micro": "^9.1.4",
-    "request-promise": "^4.2.2"
+    "micro": "^9.1.4"
   }
 }
