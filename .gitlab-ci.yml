@@ -4,7 +4,17 @@ lint:
    - npm install
    - npm run lint
 
-unit test:
+unit test: &unit
   script:
    - npm install
    - npm test
+
+unit test node8:
+  <<: *unit
+  image: node:8-alpine
+unit test node7:
+  <<: *unit
+  image: node:7-alpine
+unit test node6:
+  <<: *unit
+  image: node:6-alpine
