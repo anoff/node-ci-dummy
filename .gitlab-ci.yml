@@ -1,10 +1,11 @@
-image: node:9
 lint:
+  image: node:9
   script:
    - npm install
    - npm run lint
 
-unit test: &unit
+unit test node9: &unit
+  image: node:9
   script:
    - npm install
    - npm test
@@ -18,3 +19,6 @@ unit test node7:
 unit test node6:
   <<: *unit
   image: node:6-alpine
+unit test node4:
+  <<: *unit
+  image: node:4-alpine
