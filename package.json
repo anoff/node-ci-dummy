@@ -6,7 +6,8 @@
   "scripts": {
     "test": "ava",
     "start": "micro",
-    "dev": "micro-dev"
+    "dev": "micro-dev",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",

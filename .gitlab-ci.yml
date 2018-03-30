@@ -1,0 +1,10 @@
+image: node:9
+lint:
+  script:
+   - npm install
+   - npm run lint
+
+unit test:
+  script:
+   - npm install
+   - npm test
