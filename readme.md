@@ -2,6 +2,8 @@
 
 > Dummy web app written in node to explore Gitlab CI with GitHub integration
 
+🚨 Please be aware that this code is not maintained and may contain vulnerable packages 🚨
+
 <div align="center"><img src="./octolab.png"></div>
 
 ## Features
